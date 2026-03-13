@@ -43,7 +43,7 @@ int findMaximum(vector<int> numbers)
     // TODO
     // Return the largest number in the vector
     int max = numbers[0];
-    for (int i = 0; i < numbers.size(); i++){if (max < numbers[i]) max = numbers[i]; } 
+    for (int i = 1; i < numbers.size(); i++){if (max < numbers[i]) max = numbers[i]; } 
     return max;
 }
 
